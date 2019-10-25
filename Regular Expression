@@ -14,3 +14,4 @@ a?b : 0|1 : không hoặc 1 lần
 -A*-  : khi *=0 : kết quả --
 [-@]* : khi *= 2 => [-@][-@]  (2 lần)  tìm kết quả bằng cách nhân các tập hợp -@, @-, @@, --
 \*   : tìm dấu *, do * là ký tự đặt biệt nên bổ sung dấu \
+\*+  : tìm * xuất hiện từ 1-n lần
