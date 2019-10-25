@@ -26,5 +26,14 @@ AB*A ~~~~ AB{0,}A 2 cách viết giống nhau
 + : 1-n lần
 *: 0 đến n lần
 ?:  0 hoặc 1
+r.+? 
+*? : 0 lần xuất hiện
++? : 1 lần xuất hiện
+?? : không lần
+\w = [A-Za-z0-9_] = [A-z0-9_]
+[^A-z0-9_] = ngượi lại = \W  ==> thu được ký tự đặc biết
+\S = thu được giá trị không phải khoảng trắng
+
+
 
 Nguồn: https://www.youtube.com/watch?v=x-IEH03VMFw&list=PLv6GftO355AsZFXlWLKob6tMsWZa4VCY1&index=63
