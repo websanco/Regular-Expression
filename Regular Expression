@@ -32,8 +32,19 @@ r.+?
 ?? : không lần
 \w = [A-Za-z0-9_] = [A-z0-9_]
 [^A-z0-9_] = ngượi lại = \W  ==> thu được ký tự đặc biết
-\S = thu được giá trị không phải khoảng trắng
+\S = thu được giá trị không phải khoảng trắng space
+\d  = thu được giá trị từ 0-9 (digit)
+\D =  thu được giá trị khác 0-D undigit
+[^0-9] = \D
+\A...  = ^...  tìm từ đầu chuỗi
+...$  = tìm cuối chuỗi  = ...\Z
+A+ 
+A+(?=X)  = lấy được AAA aaa cuối =X
+A{3,} = AAAX
+A{3,}(?#X) = AAA*  cuối khác
+A{3,}(?!X) = AAA* cuối không phải
+<p class="title">this is </p>  lấy this is bằng (?<=<p class="title">).*(?=</p>)
 
-
+tìm từ đầu chuối (?<=)
 
 Nguồn: https://www.youtube.com/watch?v=x-IEH03VMFw&list=PLv6GftO355AsZFXlWLKob6tMsWZa4VCY1&index=63
