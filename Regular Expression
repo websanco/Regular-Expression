@@ -12,3 +12,4 @@ a?b : 0|1 : không hoặc 1 lần
 +*  : loại bỏ khoảng trắng
 --  : bắt đầu và kết thúc
 -A*-  : khi *=0 : kết quả --
+[-@]* : khi *= 2 => [-@][-@]  (2 lần)  tìm kết quả bằng cách nhân các tập hợp -@, @-, @@, --
