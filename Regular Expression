@@ -16,3 +16,4 @@ a?b : 0|1 : không hoặc 1 lần
 \*   : tìm dấu *, do * là ký tự đặt biệt nên bổ sung dấu \
 \*+  : tìm * xuất hiện từ 1-n lần
 [^ ]+ : tìm ký tự không phải khoảng trắng xuất hiện 1-n lần
+-X?XX? : thay 0 và 1 vào ? lần lượt hết các hoán vị  -XXX khi ? =1, -XX  khi ? đầu -0 hỏi sau = 1
