@@ -1,0 +1,9 @@
+[] : tập hơp
+- : dãy số
+[a-z] : show từ a đến z
+[^] : phủ định của ký hiệu trong tập hợp
+[^0-9] : kết quả là a đến z
+| : hoặc là
+(a|b|c) : tìm tập hợp a, b, c
+(a|b|c)z: kết quả là az, bz, cz
+
