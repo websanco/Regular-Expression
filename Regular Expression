@@ -18,3 +18,7 @@ a?b : 0|1 : không hoặc 1 lần
 [^ ]+ : tìm ký tự không phải khoảng trắng xuất hiện 1-n lần
 -X?XX?X : thay 0 và 1 vào ? lần lượt hết các hoán vị  -XXXX khi tất cả ? =1,  -XX  khi ? đầu -0 hỏi sau = 0
 [^@]@?@ : tìm chuỗi không bắt đầu bằng @ = kết quả = -@@ hoặc -@  ( trước không có @)
+.{5}
+
+
+Nguồn: https://www.youtube.com/watch?v=x-IEH03VMFw&list=PLv6GftO355AsZFXlWLKob6tMsWZa4VCY1&index=63
