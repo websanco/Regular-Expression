@@ -58,13 +58,16 @@ tìm từ đầu chuối (?<=)
 EMAIL CAP 1
 
 [a-z][a-z0-9_\.]{2,32}@  = info@
-[a-z0-9]{3,}\.  = info@khohocvideo
+[a-z0-9]{3,}\.  = info@domain
 [a-z]{2,4}    =  com
 \.[a-z]{2,4} = .com
 
 EMAIL CAP 2
 (\.[a-z]{2,4}){1,2} = .com.vn
 
+[a-z][a-z0-9_\.]{2,32}@[a-z0-9]{3,}(\.[a-z]{2,4}){1,2}  tìm chuoi
+
+^[a-z][a-z0-9_\.]{2,32}@[a-z0-9]{3,}(\.[a-z]{2,4}){1,2}$  tìm ^ từ đầu và kết thúc chuỗi $
 
 
 
