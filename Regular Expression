@@ -1,9 +1,14 @@
 [] : tập hơp
 - : dãy số
-[a-z] : show từ a đến z
+[a-z] : show giá trị từ a đến z
 [^] : phủ định của ký hiệu trong tập hợp
 [^0-9] : kết quả là a đến z
 | : hoặc là
 (a|b|c) : tìm tập hợp a, b, c
 (a|b|c)z: kết quả là az, bz, cz
-
+a*b :  0-n : *=0 -> kết quả là ab
+a+b : 1-n :+ giá trị 1-n lần  khi +=1 kết quả là: aab, 
+a?b : 0|1 : không hoặc 1 lần
++*  : loại bỏ khoảng trắng
+--  : bắt đầu và kết thúc
+-A*-  : khi *=0 : kết quả --
