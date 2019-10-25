@@ -69,6 +69,9 @@ EMAIL CAP 2
 
 ^[a-z][a-z0-9_\.]{2,32}@[a-z0-9]{3,}(\.[a-z]{2,4}){1,2}$  tìm ^ từ đầu và kết thúc chuỗi $
 
+https?   Lúc có lúc không có s đều lấy được tất cả
+
+(https?://(www\.)?|www\.)  lấy địa chỉ web
 
 
 
