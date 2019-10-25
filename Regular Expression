@@ -53,6 +53,18 @@ tìm từ đầu chuối (?<=)
 
 \b  = begin a-z
 \B  = begin z-a
+\. lấy ký tự đặc biệt
+
+EMAIL CAP 1
+
+[a-z][a-z0-9_\.]{2,32}@  = info@
+[a-z0-9]{3,}\.  = info@khohocvideo
+[a-z]{2,4}    =  com
+\.[a-z]{2,4} = .com
+
+EMAIL CAP 2
+(\.[a-z]{2,4}){1,2} = .com.vn
+
 
 
 
