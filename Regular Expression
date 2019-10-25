@@ -47,4 +47,15 @@ A{3,}(?!X) = AAA* cuối không phải
 
 tìm từ đầu chuối (?<=)
 
+(?<=<a href=").*(?=")  lấy giá trị trong href
+?<= tìm chuối bắt đầu
+?= kết thúc =
+
+\b  = begin a-z
+\B  = begin z-a
+
+
+
+
+
 Nguồn: https://www.youtube.com/watch?v=x-IEH03VMFw&list=PLv6GftO355AsZFXlWLKob6tMsWZa4VCY1&index=63
